@@ -1,0 +1,88 @@
+body{
+    background-color: hsl(0, 0%, 86%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+    gap: 7vw;
+}
+.container{
+    background-color: white;
+    padding: 2% 5%;
+    margin: 10% 12%;
+    border-radius: 2vw;
+    border-bottom-right-radius: 10vw;
+}
+h3{
+    font-size: 2vw;
+}
+input{
+    height: 40px;
+    width: 10vw;
+    font-size: larger;
+    font-weight: 700;
+    border-radius: 5px;
+    border-style: none;
+    border-width: 1px;
+    border-color: rgb(220, 207, 207);
+    border-style: solid;
+    padding-left: 10px;
+}
+.bold{
+    margin-top: 2vw ;
+    font-size: 50px;
+    font-weight: 900;
+}
+span{
+    color: purple;
+    font-size: 55px;
+}
+svg{
+    background-color: rgb(51, 20, 175);
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 252px; 
+    left: 93%;
+}
+.border{
+    border-bottom: solid 1px rgb(218, 198, 198);
+    padding-bottom: 5vw;
+}
+.space{
+    justify-content: space-between;
+}
+#error1,#error2,#error3{
+    font-size: small;
+    color: red;
+    font-style: italic;
+}
+
+@media(max-width:375px)
+{
+    .container{
+        margin: 15vw 3vw;
+        height: 410px;
+        border-bottom-right-radius: 23vw;
+    }
+    svg{
+        bottom: 305px;
+        left: 41%;
+    }
+    .space{
+        margin: 10vw;
+        margin-left: 0;
+    }
+    .border{
+        padding: 15px;
+        padding-bottom: 40px;
+    }
+    input{
+        width: 18vw;
+    }
+    #error1,#error2,#error3{
+        font-size: 2.3vw;
+    }
+}
